@@ -1,16 +1,16 @@
-aCount = 0
-cCount = 0
-gCount = 0
-tCount = 0
+a_count = 0
+c_count = 0
+g_count = 0
+t_count = 0
 
 for c in input():
     if c == "A":
-        aCount += 1
+        a_count = a_count + 1
     elif c == "C":
-        cCount += 1
+        c_count = c_count + 1
     elif c == "G":
-        gCount += 1
+        g_count = g_count + 1
     elif c == "T":
-        tCount += 1
+        t_count = t_count + 1
 
-print(aCount, cCount, gCount, tCount)
+print(a_count, c_count, g_count, t_count)

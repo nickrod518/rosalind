@@ -1,8 +1,8 @@
 import os
 
-file_path = os.environ['USERPROFILE'] + "\\Downloads\\"
-dataset_file = open(file_path + "rosalind_ini5.txt", 'r')
-solution_file = open(file_path + "rosalind_ini5_solution.txt", 'w+')
+file_path = os.environ["USERPROFILE"] + "\\Downloads\\"
+dataset_file = open(file_path + "rosalind_ini5.txt", "r")
+solution_file = open(file_path + "rosalind_ini5_solution.txt", "w+")
 
 odd = True
 

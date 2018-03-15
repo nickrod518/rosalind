@@ -2,8 +2,8 @@ string = ""
 
 for c in input():
     if c == "T":
-        string += "U"
+        string = string + "U"
     else:
-        string += c
+        string = string + c
 
 print(string)
